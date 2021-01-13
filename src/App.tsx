@@ -7,7 +7,7 @@ import {QuestionState, Difficulty} from './API';
 //Styles
 import { GlobalStyle, Wrapper } from './App.styles';
 
-export type AnsweObject={
+export type AnswerObject={
   question: string;
   answer: string;
   correct: boolean;
@@ -21,7 +21,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [questions, setQuestions] = useState<QuestionState[]>([]);
   const [number, setNumber] = useState(0);
-  const [userAnswers, setUserAnswers] = useState<AnsweObject[]>([]);
+  const [userAnswers, setUserAnswers] = useState<AnswerObject[]>([]);
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(true);
 

@@ -1,6 +1,6 @@
 import React from 'react';
 //Types
-import { AnswerObject } from '../API';
+import { AnswerObject } from '../App';
 //Styles 
 
 
